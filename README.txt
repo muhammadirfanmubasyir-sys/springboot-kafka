@@ -1,7 +1,8 @@
 KAFKA VERSION:  kafka_2.13-3.9.0
 Display Commit Window: Alt+0
 
-========== Only in kraft Mode ======= use Gitbash ======
+========== Only in kraft Mode =======
+======= Use Gitbash ======
 LENOVO L13 YOGA@DESKTOP-CH2QFKL MINGW64 /c/kafka
 
 -----Generate a Cluster UUID----
