@@ -8,6 +8,11 @@ LENOVO L13 YOGA@DESKTOP-CH2QFKL MINGW64 /c/kafka
 -----Generate a Cluster UUID----
 $ KAFKA_CLUSTER_ID="$(bin/kafka-storage.sh random-uuid)"
 
+----- Clear previous logs --
+---- see in log.dirs=/tmp/kraft-combined-logs
+---- IN C:\kafka\config\kraft\server.properties
+$ rm -rf C:\tmp\kraft-combined-logs
+
 ----Format Log Directories-----------
 $ bin/kafka-storage.sh format --standalone -t $KAFKA_CLUSTER_ID -c config/kraft/server.properties
 Formatting dynamic metadata voter directory /tmp/kraft-combined-logs with metadata.version 3.9-IV0.
